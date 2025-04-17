@@ -22,17 +22,17 @@ A deliberately vulnerable CTF machine with:
 
 ---
 
-## Quick Start
-```bash
-# Build and run
+### Quick Start
+
+### Build and run
 git clone https://github.com/your-repo/dockerized-flask-ctf.git
 cd dockerized-flask-ctf
 docker-compose up -d
 
-# Access the web app
+### Access the web app
 curl http://localhost:5000
 
-## Vulnerabilities
+### Vulnerabilities
 ### 1. Flask SSTI - Remote Code Execution
 
 #### Vulnerable Code:
@@ -42,7 +42,7 @@ curl http://localhost:5000
 def debug():
     user_input = request.args.get('input', 'None')
     return render_template_string(f"Debug: {user_input}")  # SSTI here
-    ```
+```
 #### Impact:
 
     Execute arbitrary commands as ctf user inside container.
