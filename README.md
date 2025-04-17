@@ -114,7 +114,8 @@ Flag Locations
 Flag	Path	Unlock Condition
 user.txt	/home/ctf/user.txt	After SSTI exploit
 root.txt	/root/root.txt	After privilege escalation
-Educational Value
+
+### Educational Value
 
 Skills Learned:
 
