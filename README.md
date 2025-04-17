@@ -1,4 +1,4 @@
-# Dockerized Flask Hell - Medium CTF Machine
+# Tholvi Docker 1 - Medium CTF Machine
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange)
 ![Category](https://img.shields.io/badge/Category-Web%20%2B%20PrivEsc-blue)
